@@ -1,19 +1,3 @@
-                                         _.oo.
-                 _.u[[/;:,.         .odMMMMMM'
-              .o888UU[[[/;:-.  .o@P^    MMM^
-             oN88888UU[[[/;::-.        dP^
-            dNMMNN888UU[[[/;:--.   .o@P^
-           ,MMMMMMN888UU[[/;::-. o@^
-           NNMMMNN888UU[[[/~.o@P^
-           888888888UU[[[/o@^-..
-          oI8888UU[[[/o@P^:--..
-       .@^  YUU[[[/o@^;::---..
-     oMP     ^/o@P^;:::---..
-  .dMMM    .o@^ ^;::---...
- dMMMMMMM@^`       `^^^^
-YMMMUP^
- ^^
-
 # Galactic Quest - A Space-Themed Adventure Game
 
 Welcome to Galactic Quest, a thrilling text-based adventure game where you play the role of the captain of the spacecraft Pegasus! Your mission is to explore the Andromeda galaxy and find a new habitable planet for humanity to colonize.
