@@ -161,6 +161,27 @@ pygame.mixer.music.play(-1)
 
 app = QApplication(sys.argv)
 
+app.setStyleSheet("""
+    QWidget {
+        background-color: #333;
+        color: #fff;
+    }
+    QPushButton {
+        background-color: #555;
+        border: none;
+        color: #fff;
+        padding: 5px;
+        min-width: 70px;
+        min-height: 30px;
+    }
+    QPushButton:hover {
+        background-color: #888;
+    }
+    QPushButton:pressed {
+        background-color: #aaa;
+    }
+""")
+
 game = GalacticQuestGame()
 game.show()
 
