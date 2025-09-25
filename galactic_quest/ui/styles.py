@@ -31,6 +31,35 @@ QLabel#story-text {
     margin: 10px;
 }
 
+QGroupBox {
+    border: 1px solid #3f3f3f;
+    border-radius: 8px;
+    margin-top: 12px;
+    font-weight: 600;
+    padding: 16px 12px 12px 12px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 12px;
+    padding: 0 4px;
+}
+
+QListWidget#history-list {
+    background-color: #303030;
+    border: 1px solid #444444;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+QListWidget#history-list::item {
+    padding: 6px 4px;
+}
+
+QListWidget#history-list::item:alternate {
+    background-color: #2a2a2a;
+}
+
 QPushButton {
     background-color: #0078d4;
     border: none;

@@ -1,10 +1,10 @@
 """Main entry point for Galactic Quest."""
 
-import sys
 import logging
-from pathlib import Path
-from PyQt6.QtWidgets import QApplication
+import sys
+
 from PyQt6.QtCore import Qt
+from PyQt6.QtWidgets import QApplication
 
 from .ui import GalacticQuestWindow
 from .game import AudioManager
@@ -18,7 +18,7 @@ def setup_logging() -> None:
         format=log_format,
         handlers=[
             logging.StreamHandler(sys.stdout),
-        ]
+        ],
     )
 
     # Set specific log levels for noisy modules
