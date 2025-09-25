@@ -36,6 +36,10 @@ Repository = "https://github.com/andrewtvincent518/Galactic-Quest"
 where = ["."]
 include = ["galactic_quest*"]
 
+[tool.setuptools.package-data]
+"galactic_quest.data" = ["*.json"]
+"galactic_quest" = ["py.typed"]
+
 [tool.mypy]
 python_version = "3.8"
 warn_return_any = true
