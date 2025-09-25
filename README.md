@@ -1,6 +1,20 @@
-# Galactic Quest - A Space-Themed Adventure Game
+<div align="center">
+  <img src="assets/banner.png" alt="Galactic Quest Banner" width="800"/>
 
-Welcome to Galactic Quest, a modern text-based adventure game where you play as the captain of the spacecraft Pegasus! Your mission is to explore the Andromeda galaxy and find a new habitable planet for humanity to colonize.
+  # Galactic Quest
+  ### A Modern Space-Themed Adventure Game
+
+  [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+  [![PyQt6](https://img.shields.io/badge/PyQt6-Latest-green.svg)](https://www.riverbankcomputing.com/software/pyqt/)
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+  [![Stars](https://img.shields.io/github/stars/andrewtvincent518/Galactic-Quest.svg)](https://github.com/andrewtvincent518/Galactic-Quest/stargazers)
+</div>
+
+---
+
+**Embark on an epic journey through the cosmos!** 🚀
+
+Welcome to Galactic Quest, a modern text-based adventure game where you captain the spacecraft Pegasus on a mission to explore the Andromeda galaxy and find a new habitable planet for humanity to colonize.
 
 ## 🚀 Features
 

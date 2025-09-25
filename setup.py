@@ -18,6 +18,7 @@ build_exe_options = {
     "include_files": [
         ("surveillance.mp3", "surveillance.mp3"),
         ("galactic_quest/data/story.json", "galactic_quest/data/story.json"),
+        ("assets/banner.png", "assets/banner.png"),
     ],
     "excludes": [
         "tkinter",
