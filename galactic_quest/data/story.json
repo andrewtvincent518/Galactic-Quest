@@ -1,0 +1,93 @@
+{
+  "background": "In the year 2123, humankind has developed the technology to travel across galaxies. As the captain of the spacecraft Pegasus, the player's mission is to explore the Andromeda galaxy and find a new habitable planet for humanity to colonize.",
+  "introduction": "Welcome to the Pegasus, Captain.\nThe crew and the entire human race are counting on your wisdom and courage to secure a future for us in the Andromeda galaxy.\nWe have prepared three possible routes for this journey.\nChoose wisely.",
+
+  "scenes": {
+    "start": {
+      "text": "",
+      "choices": [
+        {"text": "Start Galactic Quest!", "next": "route_choice"}
+      ]
+    },
+
+    "route_choice": {
+      "text": "Take the safe, long route. This will use less fuel but takes longer and you may run out of supplies.\n\nTake the risky, shorter route. This is quicker but consumes more fuel and there's the chance of encountering unknown dangers.",
+      "choices": [
+        {"text": "Choose Route A", "next": "route_a_signal"},
+        {"text": "Choose Route B", "next": "route_b_anomaly"}
+      ]
+    },
+
+    "route_a_signal": {
+      "text": "A distress signal is intercepted from a nearby spaceship. Do you want to proceed and investigate?",
+      "choices": [
+        {"text": "Investigate Distress Signal", "next": "investigate_signal"},
+        {"text": "Ignore Distress Signal", "next": "ignore_signal"}
+      ]
+    },
+
+    "investigate_signal": {
+      "text": "You encounter alien pirates who try to hijack the ship. You have two options",
+      "choices": [
+        {"text": "Try to negotiate with the pirates", "next": "negotiate"},
+        {"text": "Engage in a space battle", "next": "battle"}
+      ]
+    },
+
+    "ignore_signal": {
+      "text": "You decide to stay focused on the mission and continue on",
+      "choices": [],
+      "ending": true
+    },
+
+    "negotiate": {
+      "text": "Success: Gain alien allies and valuable resources for the mission",
+      "choices": [],
+      "ending": true,
+      "outcome": "success"
+    },
+
+    "battle": {
+      "text": "Failure: Lose crew members and critical supplies",
+      "choices": [],
+      "ending": true,
+      "outcome": "failure"
+    },
+
+    "route_b_anomaly": {
+      "text": "A strange spatial anomaly is detected ahead. Do you want to inspect the anomaly?",
+      "choices": [
+        {"text": "Inspect the anomaly", "next": "inspect_anomaly"},
+        {"text": "Avoid the anomaly and alter the course", "next": "avoid_anomaly"}
+      ]
+    },
+
+    "inspect_anomaly": {
+      "text": "The anomaly is a wormhole that can get you to Andromeda much faster, but the ship could also get damaged. Choose your next step.",
+      "choices": [
+        {"text": "Take the risk and fly through the wormhole.", "next": "take_risk"},
+        {"text": "Take a detour around the wormhole.", "next": "take_detour"}
+      ]
+    },
+
+    "avoid_anomaly": {
+      "text": "You decide to stay focused on the mission and continue on",
+      "choices": [],
+      "ending": true
+    },
+
+    "take_risk": {
+      "text": "Success: Reach Andromeda in record time and locate the habitable planet.",
+      "choices": [],
+      "ending": true,
+      "outcome": "success"
+    },
+
+    "take_detour": {
+      "text": "Failure: Severe ship damage, causing mission failure and getting stranded in space.",
+      "choices": [],
+      "ending": true,
+      "outcome": "failure"
+    }
+  }
+}
